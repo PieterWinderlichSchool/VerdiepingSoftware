@@ -1,5 +1,5 @@
 
-# Naam Proefopdracht
+# Dialogue Tree
 
 
 Dialogue system. Ik probeer het zo customizable te maken als ik kan. Met voornaamste reden dat ik dit graag later wil gebruiken
@@ -24,7 +24,7 @@ Je hebt grofweg 2 weken, hoe deel je deze twee weken in. Wat plan je wanneer om 
 |week 2 |Testing| Text schrijven| Inleveren
 
 ## Bronnen
-Welke bronnen heb je gebruikt? Zowel youtube filmpjes als artikelen
+
 
 - [Scriptable Objects](https://www.youtube.com/watch?v=aPXvoWVabPY)
 - [Dialoog tree](http://www.liamsorta.co.uk/2017/07/30/scriptable-object-based-dialogue-system/)
