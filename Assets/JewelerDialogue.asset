@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eed4a1b7bca53f4980fb694e14cadbb, type: 3}
+  m_Name: JewelerDialogue
+  m_EditorClassIdentifier: 
+  npcID: 0
+  npcName: 
+  messages:
+  - textSequence:
+    - text: Greetings
+      waitTime: 0
+      hasReaction: 0
+      Reactions: []
+    endsInteraction: 0
+    responses:
+    - ResponseNumber: 0
+      next: 1
+      ButtonText: Tell me about this ring.
+      reply: I found this ring in a black knight camp, do you know anything about
+        it?
+      prereq: 
+      trigger: 
+    - ResponseNumber: 0
+      next: 2
+      ButtonText: Heard any rumors lately?
+      reply: Tell me about this place, any interesting opertunities or rumors?
+      prereq: 
+      trigger: 
+    - ResponseNumber: 0
+      next: -1
+      ButtonText: Farewell
+      reply: Goodby
+      prereq: 
+      trigger: 
+  - textSequence:
+    - text: 'Ah yes , Aquamarine with inlaid diamonds, Golden band And it has my signature.
+        One of my finer works.I know who I sold this to. '
+      waitTime: 2
+      hasReaction: 0
+      Reactions: []
+    - text: A black knight camp you said? Then this must be urgent. I keep track of
+        all my customers in a book.
+      waitTime: 4
+      hasReaction: 0
+      Reactions: []
+    - text: Ah here we go. His name was Servin Watermen.
+      waitTime: 2
+      hasReaction: 0
+      Reactions: []
+    - text: 'Lives in the outskirts of the town. House is a bit rundown. Probably
+        because he has been missing for a couple of weeks. '
+      waitTime: 2
+      hasReaction: 0
+      Reactions: []
+    - text: Be careful wizard, if he is a black knight who knows what he has left
+        there. Fare the well.
+      waitTime: 2
+      hasReaction: 1
+      Reactions:
+      - Farewell
+    endsInteraction: 1
+    responses: []
+  - textSequence:
+    - text: nope
+      waitTime: 1
+      hasReaction: 0
+      Reactions: []
+    endsInteraction: 0
+    responses: []
+  - textSequence:
+    - text: See you around
+      waitTime: 0
+      hasReaction: 0
+      Reactions: []
+    endsInteraction: 1
+    responses: []

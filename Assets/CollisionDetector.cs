@@ -20,7 +20,7 @@ public class CollisionDetector : MonoBehaviour {
         positioner = GameObject.Find("MainCamera").GetComponent<CameraPositions>();
         GUpdate = new GameStatusUpdater();
         inMang = GetComponent<InputManager>(); // new InputManager();
-        Debug.Log("debugger");
+
     }
 
     void Update()
@@ -30,12 +30,12 @@ public class CollisionDetector : MonoBehaviour {
     }
 
     void OnTriggerStay(Collider other) {
-        Debug.Log(other.tag);
+
         switch (other.tag)
         {
             case "NPC":
                 inRangeOfConv = true;
-                Debug.Log("NPC: " + inRangeOfConv);
+
                 break;
             case "ENEMY":
                 inRangeOfCom = true;

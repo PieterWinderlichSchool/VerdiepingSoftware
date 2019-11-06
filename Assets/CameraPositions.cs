@@ -11,7 +11,7 @@ public class CameraPositions : MonoBehaviour {
 		for(int i = 0; i < camPosCon.Count; i++){
 			GameObject camPos =  new GameObject();
 			camPos.transform.parent = gameObject.transform.parent;
-            Debug.Log("CameraPositionFound");
+
 
 			camPos.transform.localPosition = new Vector3 (camPosCon [i].x, camPosCon[i].y, camPosCon[i].z);
 	}
