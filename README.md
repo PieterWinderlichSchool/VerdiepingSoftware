@@ -20,8 +20,8 @@ Je hebt grofweg 2 weken, hoe deel je deze twee weken in. Wat plan je wanneer om 
 
 | | maandag | dinsdag | woensdag | donderdag | vrijdag |
 |--- |---| --- | --- | --- | --- |
-|week 1 |Scriptable objects , ButtonOption script, Dialogue UI bouwen, Interactable NPC's , Dialoog tree testing.
-|week 2 |Testing, Text schrijven, Inleveren
+|week 1 |Scriptable objects | ButtonOption script| Dialogue UI bouwen| Interactable NPC's | Dialoog tree testing.
+|week 2 |Testing| Text schrijven| Inleveren
 
 ## Bronnen
 Welke bronnen heb je gebruikt? Zowel youtube filmpjes als artikelen
